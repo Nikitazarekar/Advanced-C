@@ -1,15 +1,14 @@
 # Advanced-C
 ## Chapter 1 Pointers 8Hrs
-
-  1.1. Introduction to Pointers.
-  1.2. Declaration, definition, initialization, dereferencing.
-  1.3. Pointer arithmetic.
-  1.4. Relationship between Arrays & Pointers- Pointer to array, Array of pointers.
-  1.5. Multiple indirection (pointer to pointer).
-  1.6. Functions and pointers- Passing pointer to function, Returning pointer from function, Function pointer.
-  1.7. Dynamic memory management- Allocation(malloc(),calloc()), Resizing(realloc()), Releasing(free()).,
-  1.8. Memory leak, dangling pointers.
-  1.9. Types of pointers.
+- 1.1. Introduction to Pointers.
+- 1.2. Declaration, definition, initialization, dereferencing.
+- 1.3. Pointer arithmetic.
+- 1.4. Relationship between Arrays & Pointers- Pointer to array, Array of pointers.
+- 1.5. Multiple indirection (pointer to pointer).
+- 1.6. Functions and pointers- Passing pointer to function, Returning pointer from function, Function pointer.
+- 1.7. Dynamic memory management- Allocation(malloc(),calloc()), Resizing(realloc()), Releasing(free()).,
+- 1.8. Memory leak, dangling pointers.
+- 1.9. Types of pointers.
   
 ## Chapter 2 Strings 6Hrs
 
