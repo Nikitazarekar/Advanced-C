@@ -57,7 +57,7 @@
 ---
 ### 1.2. Declaration, Definition, Initialization, Dereferencing
 #### Declaration:
--In C, pointers are declared using the * operator, which tells the compiler that the variable is a pointer.
+- In C, pointers are declared using the * operator, which tells the compiler that the variable is a pointer.
 
 ```c
 int *ptr;   // Declares a pointer to an integer
