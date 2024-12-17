@@ -223,8 +223,8 @@ int main() {
 
 #### 1.7. Dynamic Memory Management
 - Allocation (malloc(), calloc()):<\n>
-•	malloc(size_t size) allocates a block of memory of the specified size (in bytes) and returns a pointer to it.<\n>
-•	calloc(num, size) allocates memory for an array of num elements, each of size bytes, and initializes all elements to zero.<\n>
+-	malloc(size_t size) allocates a block of memory of the specified size (in bytes) and returns a pointer to it.<\n>
+-	calloc(num, size) allocates memory for an array of num elements, each of size bytes, and initializes all elements to zero.<\n>
 
 ```c
 int *arr = (int *)malloc(5 * sizeof(int));  // Allocates space for 5 integers
@@ -232,13 +232,13 @@ int *arr_zero = (int *)calloc(5, sizeof(int));  // Allocates and initializes to 
 ```
 
 - Resizing (realloc()):<\n>
-•	realloc(ptr, new_size) changes the size of the memory block pointed to by ptr to new_size.<\n>
+-	realloc(ptr, new_size) changes the size of the memory block pointed to by ptr to new_size.
 
 ```c
 arr = (int *)realloc(arr, 10 * sizeof(int));  // Resize the array to hold 10 integers
 ```
-<\n>Releasing (free()):
-•	free(ptr) releases a previously allocated block of memory.<\n>
+- Releasing (free()):
+-	free(ptr) releases a previously allocated block of memory.
 ```c
 free(arr);  // Frees the dynamically allocated memory
 ```
@@ -261,10 +261,10 @@ free(ptr);
 *ptr = 10;  // Dangling pointer, undefined behavior
 ```
 
-**1.9. Types of Pointers** <\n>
-•	Null Pointer (NULL): A pointer that does not point to any valid memory location.<\n>
-•	Void Pointer (void *): A pointer that can point to any data type. It needs to be cast to the appropriate type before dereferencing.<\n>
-•	Function Pointer: A pointer to a function.<\n>
-•	Wild Pointer: A pointer that is not initialized properly.<\n>
-•	Constant Pointer: A pointer whose value (address) cannot be changed, but the value at that address can be modified.<\n>
-•	Pointer to Constant: A pointer to a constant value (the value it points to cannot be changed, but the pointer itself can point to other variables).<\n>
+**1.9. Types of Pointers**
+-	Null Pointer (NULL): A pointer that does not point to any valid memory location.
+-	Void Pointer (void *): A pointer that can point to any data type. It needs to be cast to the appropriate type before dereferencing.
+-	Function Pointer: A pointer to a function.
+-	Wild Pointer: A pointer that is not initialized properly.
+-	Constant Pointer: A pointer whose value (address) cannot be changed, but the value at that address can be modified.
+-	Pointer to Constant: A pointer to a constant value (the value it points to cannot be changed, but the pointer itself can point to other variables).
