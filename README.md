@@ -11,39 +11,35 @@
 - 1.9. Types of pointers.
   
 ## Chapter 2 Strings 6Hrs
-
-  2.1 String Literals, string variables, declaration, definition, initialization.
-  2.2 Syntax and use of predefined string functions
-  2.3 Array of strings.
-  2.4. Strings and Pointers
-  2.5. Command line arguments.
+- 2.1 String Literals, string variables, declaration, definition, initialization.
+- 2.2 Syntax and use of predefined string functions
+- 2.3 Array of strings.
+- 2.4. Strings and Pointers
+- 2.5. Command line arguments.
   
 ## Chapter 3 Structures And Unions 8Hrs
-
-  3.1. Concept of structure, definition and initialization, use of typedef.
-  3.2. Accessing structure members.
-  3.3. Nested Structures
-  3.4. Arrays of Structures
-  3.5. Structures and functions- Passing each member of structure as a separate argument, Passing structure by value / address.
-  3.6. Pointers and structures.
-  3.7. Concept of Union, declaration, definition, accessing union members.
-  3.8. Difference between structures and union.
+- 3.1. Concept of structure, definition and initialization, use of typedef.
+- 3.2. Accessing structure members.
+- 3.3. Nested Structures
+- 3.4. Arrays of Structures
+- 3.5. Structures and functions- Passing each member of structure as a separate argument, Passing structure by value / address.
+- 3.6. Pointers and structures.
+- 3.7. Concept of Union, declaration, definition, accessing union members.
+- 3.8. Difference between structures and union.
   
 ## Chapter 4 File Handling 6Hrs
-
-  4.1. Introduction to streams.
-  4.2. Types of files.
-  4.3. Operations on text files.
-  4.4. Standard library input/output functions.
-  4.5. Random access to files.
+- 4.1. Introduction to streams.
+- 4.2. Types of files.
+- 4.3. Operations on text files.
+- 4.4. Standard library input/output functions.
+- 4.5. Random access to files.
   
 ## Chapter 5 Preprocessor 2Hrs
-
-  5.1. Role of Preprocessor
-  5.2. Format of preprocessor directive
-  5.3. File inclusion directives (#include)
-  5.4. Macro substitution directive, argumented and nested macro
-  5.5. Macros versus functions               
+- 5.1. Role of Preprocessor
+- 5.2. Format of preprocessor directive
+- 5.3. File inclusion directives (#include)
+- 5.4. Macro substitution directive, argumented and nested macro
+- 5.5. Macros versus functions               
 
 
 ## Chapter 1 Pointers
